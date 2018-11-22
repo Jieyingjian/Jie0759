@@ -1,0 +1,42 @@
+.catConnent {
+  padding-left: 80px;
+  position: relative;
+}
+
+.catConnent ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.catConnent .catLeft {
+  width: 80px;
+  height: 100%;
+  overflow: scroll;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.catConnent .catLeft ul li {
+  width: 80px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  background-color: aqua;
+}
+
+.catConnent .catRight {
+  overflow: scroll;
+  height: 100%;
+  background-color: #fff;
+}
+/*# sourceMappingURL=category.css.map */

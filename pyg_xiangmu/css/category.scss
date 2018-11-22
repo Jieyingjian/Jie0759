@@ -1,0 +1,37 @@
+// 内容
+.catConnent {
+    padding-left: 80px;
+    position: relative;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .catLeft {
+        width: 80px;
+        height: 100%;
+        overflow: scroll;
+        position: absolute;
+        top:0;
+        left: 0;
+        ul{
+            // width: 100%;
+            li{
+                width: 80px;
+                height: 40px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 16px;
+                background-color: aqua;
+            }
+        }
+    }
+
+    .catRight {
+        // width: 70%;
+        overflow: scroll;
+        height: 100%;
+        background-color:#fff;
+    }
+}
